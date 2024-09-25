@@ -3,6 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="src/styles.css">
   <title>Site de Meteorologia</title>
 </head>
@@ -16,15 +21,21 @@
   </header>
   <main>
     <div class="weather-app-data">
-      <h1>Paris</h1>
-      <p>
+      <div>
+      <h1 class="weather-app-city">Paris</h1>
+      <p class="weather-app-details">
         Tuesday 14:49, scattered clouds
         <br/>
-        Humidity: 66%, Wind: 3.13km/h
+        Humidity:<strong> 66%</strong>, Wind: <strong> 3.13km/h</strong>
       </p>
     </div>
-    <div>🌤️ 12°C</div>
+    <div class="weather-app-temperature-container">
+      <div class="weather-app-icon">🌤️</div>
+      <div class="weather-app-temperature">12</div>
+      <div class="weather-app-unit">°C</div>
+  </div>
   </main>
+
   <footer>This project was coded by <a href="https://github.com/Prisca-Souza" target="_blank">
     Prisca de Souza
     </a>, is open-sourced on <a href="https://github.com/Prisca-Souza/meteorologia" target="_blank">Github</a> and hosted on <a href="https://meteorologiasite.netlify.app/" target="_blank">netlify</a>
