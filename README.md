@@ -1,4 +1,4 @@
-Meteorlogia 🌤️
+# Meteorlogia 🌤️
 Meteorologia é um site que permite aos usuários obter informações meteorológicas em tempo real de qualquer cidade ao redor do mundo. Utilizando uma API de clima, o site exibe a temperatura, umidade, velocidade do vento, condições climáticas e uma previsão para os próximos dias, tudo de forma clara e acessível.
 
 Funcionalidades
